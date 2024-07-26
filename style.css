@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.slide{
+    margin-top: 100px;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 3px grey;
+    position: relative;    
+    overflow: hidden;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+    transition: 5s;
+     position: absolute;
+}
+
+
+.b{background-color: black;
+    color: red;
+    border: red;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#b1{
+    margin-right: 90%;
+}
+#b2{
+    
+    margin-left: 90%
+}
